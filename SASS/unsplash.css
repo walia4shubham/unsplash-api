@@ -1,0 +1,149 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: #030607;
+  color: #1a1515;
+  font-size: 2.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+header h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+header .firstui {
+  margin: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header a {
+  font-weight: light;
+}
+
+header .thirdui {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .thirdui #search {
+  padding: 0.7rem;
+  font-size: 1.5rem;
+}
+
+header .thirdui #button {
+  padding: 0.9rem;
+  margin: 0.3rem;
+  color: white;
+  border: 0.2rem solid white;
+  background-color: black;
+  border-radius: 0.8rem;
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+header .thirdui #button:hover {
+  background-color: white;
+  color: black;
+}
+
+.divheader {
+  text-align: center;
+  color: white;
+  margin-top: 8rem;
+}
+
+#displayingphotes {
+  margin-top: 3rem;
+}
+
+#displayingphotes h1 {
+  text-align: center;
+}
+
+#displayingphotes .allimage {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  height: auto;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 620px) {
+  .firstui {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .thirdui {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header h1 {
+    font-size: 3.5rem;
+  }
+}
+/*# sourceMappingURL=unsplash.css.map */
